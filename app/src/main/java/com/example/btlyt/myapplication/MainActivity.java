@@ -12,15 +12,6 @@ import android.widget.TextView;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        final TextView firstTextView = (TextView)findViewById(R.id.textView4);
-        Button firstButton = (Button)findViewById(R.id.button_1);
-        firstButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                firstTextView.setText("We did the thing!");
-            }
-        });
     }
 
 }
